@@ -1,5 +1,7 @@
 # 💍 Social & Community Systems
 
+> **Note**: These commands are currently **Prefix-Only** (`.command`) to reduce slash command clutter.
+
 Build relationships, form exclusive clubs, and track your standing with Yui.
 
 ---
@@ -8,19 +10,19 @@ Build relationships, form exclusive clubs, and track your standing with Yui.
 
 Commit to another user or even attempt to win Yui's heart.
 
-### `/marry`
-- **Description**: Propose to another user. If they accept, you will both appear on each other's `/profile`.
+### `.marry`
+- **Description**: Propose to another user. If they accept, you will both appear on each other's `.profile`.
 - **Special**: You can propose to **Yui**. This requires a **Friendship Level of 100**.
 - **Permission**: `none`
 - **Inputs**:
   - `target` (User, Required): The person you want to marry.
-- **Example**: `/marry target:@Senpai`
+- **Example**: `.marry target:@Senpai`
 
-### `/divorce`
+### `.divorce`
 - **Description**: End your current marriage.
 - **Permission**: `none`
 - **Inputs**: None.
-- **Example**: `/divorce`
+- **Example**: `.divorce`
 
 ---
 
@@ -28,20 +30,20 @@ Commit to another user or even attempt to win Yui's heart.
 
 Create exclusive private spaces for your friends.
 
-### `/club create`
+### `.club create`
 - **Description**: Create a private text channel for your club.
 - **Cost**: **50,000 XP** (Deducted from your balance).
 - **Permission**: `none`
 - **Inputs**:
   - `name` (String, Required): The name of your club.
-- **Example**: `/club create name:Gamer-Squad`
+- **Example**: `.club create name:Gamer-Squad`
 
-### `/club invite`
+### `.club invite`
 - **Description**: Invite a user to your club's private channel.
 - **Permission**: `none`
 - **Inputs**:
   - `target` (User, Required): The user to invite.
-- **Example**: `/club invite target:@Friend`
+- **Example**: `.club invite target:@Friend`
 
 ---
 
@@ -49,11 +51,11 @@ Create exclusive private spaces for your friends.
 
 Track how much Yui likes (or loathes) the server members.
 
-### `/friendship`
+### `.friendship`
 - **Description**: View the Friendship Leaderboard. Displays the top 10 "Favorite Senpais" and the top 5 "Biggest Nuisances".
 - **Permission**: `none`
 - **Inputs**: None.
-- **Example**: `/friendship`
+- **Example**: `.friendship`
 
 ---
 
