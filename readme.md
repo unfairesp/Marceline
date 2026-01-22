@@ -9,7 +9,23 @@ Marceline is a multi-purpose, high-performance Discord bot designed specifically
 - **Dynamic Economy & Leveling**: Engaging XP-based system with role-based income, daily rewards, and a variety of gambling/mini-games.
 - **Personalized Profiles**: Customizable user profiles with badge shops, reputation systems, and a pet system that tracks growth and interactions.
 - **Detailed Analytics**: Track message activity, voice channel usage, and peak server activity hours with visual stats.
+- **Advanced Logging**: A granular system that tracks message edits/deletions, member changes, channel updates, and more, including who caused the action.
 - **Utility & Fun**: A massive collection of utility tools (QR generators, translators, currency converters) and fun commands (Roleplay, Animals, Games).
+
+## 📜 Recent Changes (Changelog)
+
+### [2026-01-22]
+- **Added Advanced Logging System**:
+    - New `/logs setup` command to auto-generate 6 specialized logging channels.
+    - Deep integration with Discord Audit Logs to track executors (who deleted/edited/created) across all major events.
+    - Security-first permissions: Log categories now automatically deny `Manage Messages` for safety.
+- **Fixed & Enhanced Bot PFP Management**:
+    - Fixed error in `/bot pfp` command for server-specific avatars.
+    - Updated permissions: `/bot pfp` is now restricted to **Server Owners** and **Bot Owners** only.
+    - Added `reset` functionality to revert to the bot's global profile picture.
+- **Documentation Overhaul**: Updated all `.md` files in the `github/` directory to include recent command additions and security changes.
+
+---
 
 ## 💡 Suggestion System (`/suggest`)
 
