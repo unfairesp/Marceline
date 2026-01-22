@@ -104,7 +104,8 @@ Marceline features a deep, granular logging system that tracks every major serve
 
 ### Setup
 - **`/logs setup`**
-  - **Description**: Automatically creates a "logs" category and 6 dedicated logging channels with restricted permissions (Manage Messages denied for safety).
+  - **Description**: Automatically creates a "logs" category and 6 dedicated logging channels. 
+  - **Security**: The category is configured to deny `View Channel`, `Send Messages`, and `Manage Messages` for `@everyone` by default, ensuring only authorized staff can see the logs and they cannot be tampered with.
   - **Permission**: `Administrator`
   - **Example**: `/logs setup`
 
