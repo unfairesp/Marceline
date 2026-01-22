@@ -4,7 +4,7 @@ Marceline offers exclusive perks for users who support the server through Nitro 
 
 ## 🎭 Custom Booster Roles
 
-The `/boosterrole` command suite allows boosters to create and manage their own unique identity in the server.
+The `/boosterrole` (Alias: `.br`) command suite allows boosters to create and manage their own unique identity in the server.
 
 - **Create**: Boosters can create a custom role with their own choice of name and color.
 - **Edit**: Change the name or color of your booster role at any time.
