@@ -4,67 +4,69 @@ Everything you need to know about the social and entertainment side of Marceline
 
 ## 🎭 Roleplay Actions
 
+> **Note**: Roleplay and Game commands are currently **Prefix-Only** (`.command`) to reduce slash command clutter.
+
 All roleplay commands support mentioning a user and feature custom GIF/Embed responses.
 
 ### Basic Social
-- **`/hug`**
+- **`.hug`**
   - **Permission**: `none`
   - **Inputs**: `target` (User, Required).
-- **`/kiss`**
+- **`.kiss`**
   - **Permission**: `none`
   - **Inputs**: `target` (User, Required).
-- **`/cuddle`**
+- **`.cuddle`**
   - **Permission**: `none`
   - **Inputs**: `target` (User, Required).
-- **`/pat`**
+- **`.pat`**
   - **Permission**: `none`
   - **Inputs**: `target` (User, Required).
-- **`/slap`**
+- **`.slap`**
   - **Permission**: `none`
   - **Inputs**: `target` (User, Required).
-- **`/punch`**
+- **`.punch`**
   - **Permission**: `none`
   - **Inputs**: `target` (User, Required).
-- **`/yeet`**
+- **`.yeet`**
   - **Permission**: `none`
   - **Inputs**: `target` (User, Required).
 
 ### Expressions (Solo or Target)
-- **`/blush`**, **`/cry`**, **`/smile`**, **`/pout`**, **`/facepalm`**, **`/shrug`**
+- **`.blush`**, **`.cry`**, **`.smile`**, **`.pout`**, **`.facepalm`**, **`.shrug`**
   - **Permission**: `none`
   - **Inputs**: `target` (User, Optional).
-  - **Example**: `/blush target:@User` (Blushes at user) or `/blush` (Just blushes).
+  - **Example**: `.blush target:@User` (Blushes at user) or `.blush` (Just blushes).
 
 ---
 
 ## 🎲 Interactive Games
 
-### `/tictactoe`
+### `.tictactoe`
 - **Description**: Play a 3x3 game of X's and O's.
 - **Permission**: `none`
 - **Inputs**:
   - `opponent` (User, Required): The person you want to challenge.
-- **Example**: `/tictactoe opponent:@Friend`
+- **Example**: `.tictactoe opponent:@Friend`
 
-### `/connect4`
+### `.connect4`
 - **Description**: Drop chips to align four in a row.
 - **Permission**: `none`
 - **Inputs**:
   - `opponent` (User, Required): The person you want to challenge.
-- **Example**: `/connect4 opponent:@Friend`
+- **Example**: `.connect4 opponent:@Friend`
 
-### `/trivia`
+### `.trivia`
 - **Description**: Answer multiple-choice questions for XP.
 - **Permission**: `none`
 - **Inputs**:
   - `difficulty` (String, Optional): "Easy", "Medium", "Hard".
-- **Example**: `/trivia difficulty:Medium`
+- **Example**: `.trivia difficulty:Medium`
 
-### `/wordguess`
+### `.wordguess`
 - **Description**: Guess the hidden word.
 - **Permission**: `none`
 - **Inputs**: None.
-- **Example**: `/wordguess`
+- **Example**: `.wordguess`
 
 ---
 
