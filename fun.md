@@ -99,6 +99,12 @@ All roleplay commands support mentioning a user and feature custom GIF/Embed res
   - `target` (User, Required).
 - **Example**: `/roast target:@User`
 
+### `/raid`
+- **Description**: Start a Boss Raid in the channel. Every message sent deals damage!
+- **Permission**: `none`
+- **Inputs**: None.
+- **Example**: `/raid` (Shared XP reward for participants upon defeat).
+
 ### `/iqtest`
 - **Description**: Get your "totally real" IQ score.
 - **Permission**: `none`
