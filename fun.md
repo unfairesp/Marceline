@@ -4,7 +4,7 @@ Everything you need to know about the social and entertainment side of Marceline
 
 ## 🎭 Roleplay Actions
 
-> **Note**: Roleplay and Game commands are currently **Prefix-Only** (`.command`) to reduce slash command clutter.
+> **Note**: Roleplay, Game, and Fun commands are currently **Prefix-Only** (`.command`) to reduce slash command clutter.
 
 All roleplay commands support mentioning a user and feature custom GIF/Embed responses.
 
@@ -72,51 +72,98 @@ All roleplay commands support mentioning a user and feature custom GIF/Embed res
 
 ## ✨ Fun & Random
 
-### `/8ball`
+### `.8ball`
 - **Description**: Ask a question to the magic 8-ball.
 - **Permission**: `none`
 - **Inputs**:
   - `question` (String, Required): Your yes/no question.
-- **Example**: `/8ball question:Will I win the lottery?`
+- **Example**: `.8ball question:Will I win the lottery?`
 
-### `/choose`
+### `.choose`
 - **Description**: Let the bot pick between options.
 - **Permission**: `none`
 - **Inputs**:
   - `options` (String, Required): Options separated by commas.
-- **Example**: `/choose options:Netflix, Gaming, Sleeping`
+- **Example**: `.choose options:Netflix, Gaming, Sleeping`
 
-### `/lovecalc`
+### `.lovecalc`
 - **Description**: Check the compatibility between two users.
 - **Permission**: `none`
 - **Inputs**:
   - `user1` (User, Required).
   - `user2` (User, Optional). Default: Yourself.
-- **Example**: `/lovecalc user1:@Person1 user2:@Person2`
+- **Example**: `.lovecalc user1:@Person1 user2:@Person2`
 
-### `/roast`
+### `.roast`
 - **Description**: Deliver a random roast.
 - **Permission**: `none`
 - **Inputs**:
   - `target` (User, Required).
-- **Example**: `/roast target:@User`
+- **Example**: `.roast target:@User`
 
-### `/raid`
+### `.hack`
+- **Description**: Simulate a "hacking" sequence of a user.
+- **Permission**: `none`
+- **Inputs**:
+  - `user` (User, Required).
+- **Example**: `.hack user:@Target`
+
+### `.iqtest`
+- **Description**: Test your IQ (or someone else's).
+- **Permission**: `none`
+- **Inputs**:
+  - `user` (User, Optional).
+- **Example**: `.iqtest user:@Target`
+
+### `.howgay`
+- **Description**: Measures the gayness level.
+- **Permission**: `none`
+- **Inputs**:
+  - `user` (User, Optional).
+- **Example**: `.howgay user:@Target`
+
+### `.rps`
+- **Description**: Play Rock, Paper, Scissors.
+- **Permission**: `none`
+- **Inputs**:
+  - `choice` (String, Required): "Rock", "Paper", or "Scissors".
+- **Example**: `.rps choice:Rock`
+
+### `.meme`
+- **Description**: Get a random meme from Reddit.
+- **Permission**: `none`
+- **Inputs**: None.
+- **Example**: `.meme`
+
+### `.joke`
+- **Description**: Get a random joke.
+- **Permission**: `none`
+- **Inputs**: None.
+- **Example**: `.joke`
+
+### `.fact`
+- **Description**: Get a random interesting fact.
+- **Permission**: `none`
+- **Inputs**: None.
+- **Example**: `.fact`
+
+### `.ascii`
+- **Description**: Convert text to ASCII art.
+- **Permission**: `none`
+- **Inputs**:
+  - `text` (String, Required).
+- **Example**: `.ascii text:Hello`
+
+### `.emojify`
+- **Description**: Convert text to big emoji letters.
+- **Permission**: `none`
+- **Inputs**:
+  - `text` (String, Required).
+- **Example**: `.emojify text:Wow`
+
+### `.raid`
 - **Description**: Start a Boss Raid in the channel. Every message sent deals damage!
 - **Permission**: `none`
 - **Inputs**: None.
-- **Example**: `/raid` (Shared XP reward for participants upon defeat).
+- **Example**: `.raid` (Shared XP reward for participants upon defeat).
 
-### `/iqtest`
-- **Description**: Get your "totally real" IQ score.
-- **Permission**: `none`
-- **Inputs**:
-  - `user` (User, Optional). Default: Yourself.
-- **Example**: `/iqtest user:@User`
-
-### `/hack`
-- **Description**: Run a fake hacking simulation on a user.
-- **Permission**: `none`
-- **Inputs**:
-  - `target` (User, Required).
-- **Example**: `/hack target:@User`
