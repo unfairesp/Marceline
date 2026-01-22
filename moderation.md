@@ -98,6 +98,27 @@ Marceline uses an "AI-First" ticket system to handle user inquiries efficiently.
 
 ---
 
+## 📋 Advanced Logging System
+
+Marceline features a deep, granular logging system that tracks every major server action, including **who caused it** by fetching Discord Audit Logs.
+
+### Setup
+- **`/logs setup`**
+  - **Description**: Automatically creates a "logs" category and 6 dedicated logging channels with restricted permissions (Manage Messages denied for safety).
+  - **Permission**: `Administrator`
+  - **Example**: `/logs setup`
+
+### Logging Channels
+1.  **`#msg-log`**: Message deletions (content + attachments) and message edits (before/after).
+2.  **`#members-log`**: Joins, leaves, kicks, bans, unbans, nicknames, roles, and timeouts.
+3.  **`#channel-logs`**: Channel creation, deletion, and updates (name/topic).
+4.  **`#role-logs`**: Role creation, deletion, and permission/color updates.
+5.  **`#invite-logs`**: Invite creation (with expiration/inviter) and deletion.
+6.  **`#vc-logs`**: Voice joins, leaves, moves, and server mutes/deafens.
+
+---
+
+
 ## 🛡️ Anti-Abuse Configuration
 
 Managed via the Bot Owner settings, but affects general server behavior:
