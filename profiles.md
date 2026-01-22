@@ -4,8 +4,10 @@ Customization is a core part of the Marceline experience, allowing users to buil
 
 ## 🪪 User Profiles
 
-The `/profile` command displays a comprehensive card for each user, including:
+The `/profile` (Alias: `.p`) command displays a comprehensive card for each user, including:
 - **Level & XP**: Current progress in the server's ranking system.
+- **Marriage Status**: Displays your partner and a 💍 emoji.
+- **Yui Relationship**: Your current standing with the bot (e.g., "In Love", "Arch-Nemesis").
 - **Reputation (Rep)**: Social points given by other members.
 - **Badges**: A row of custom icons earned or purchased.
 - **Pet Status**: Information about the user's active virtual pet.
