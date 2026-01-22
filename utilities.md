@@ -32,6 +32,10 @@ Full breakdown of AI, productivity, and information tools.
 
 ## 📋 General Tools
 
+### `/help` (Alias: `.h`)
+- **Description**: Displays all available commands or detailed info about a specific command.
+- **Example**: `/help` or `/help command:ban`
+
 ### `/embed`
 - **Description**: Create a custom embedded message.
 - **Permission**: `Manage Messages`
