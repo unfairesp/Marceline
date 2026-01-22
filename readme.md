@@ -31,6 +31,7 @@ Detailed documentation for each feature category can be found in the following f
 - [🛡️ Moderation](moderation.md) - Staff tools and ModMail system.
 - [📈 Levels & Economy](levels.md) - XP, Ranking, and Gambling systems.
 - [👤 Profiles & Badges](profiles.md) - User profiles and customization.
+- [💍 Social & Community](social.md) - Social interactions and community tools.
 - [🛠️ Utilities](utilities.md) - AI Recaps, Vision, and general tools.
 - [🎮 Games](games.md) - Interactive mini-games and gambling.
 - [📊 Statistics](stats.md) - Server analytics and leaderboards.
