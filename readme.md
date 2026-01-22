@@ -23,7 +23,11 @@ Marceline is a multi-purpose, high-performance Discord bot designed specifically
     - Fixed error in `/bot pfp` command for server-specific avatars.
     - Updated permissions: `/bot pfp` is now restricted to **Server Owners** and **Bot Owners** only.
     - Added `reset` functionality to revert to the bot's global profile picture.
-- **Documentation Overhaul**: Updated all `.md` files in the `github/` directory to include recent command additions and security changes.
+- **Slash Command Optimization**:
+    - Removed Slash Commands for: `Roleplay`, `Animals`, `Games`, `Levels`, and `Economy` (including Pets and Clubs).
+    - These commands remain fully functional via **Prefix Syntax** (`.command`).
+    - This reduces slash command clutter and improves bot responsiveness.
+- **Documentation Overhaul**: Updated all `.md` files in the `github/` directory to reflect the new prefix-only status for relevant categories.
 
 ---
 
