@@ -78,6 +78,57 @@ Full breakdown of AI, productivity, and information tools.
   - `message` (String, Required): The text to keep sticky.
 - **Example**: `/sticky message:Remember to use the correct channel!`
 
+### `/afk`
+- **Description**: Set an AFK status that will be shown when you are mentioned.
+- **Permission**: `none`
+- **Inputs**:
+  - `reason` (String, Optional): Why you are AFK.
+- **Example**: `/afk reason:Studying for exams`
+
+### `/snipe`
+- **Description**: Retrieve the last deleted message in the current channel.
+- **Permission**: `none`
+- **Example**: `/snipe`
+
+### `/confess`
+- **Description**: Send an anonymous confession to a designated channel.
+- **Permission**: `none`
+- **Inputs**:
+  - `confession` (String, Required): Your anonymous message.
+- **Example**: `/confess confession:I actually like pineapple on pizza.`
+
+---
+
+## 📊 Information & Stats
+
+### `/serverinfo`
+- **Description**: Displays detailed information about the current server.
+- **Example**: `/serverinfo`
+
+### `/userinfo`
+- **Description**: Displays detailed information about a user.
+- **Inputs**:
+  - `target` (User, Optional): The user to check. Defaults to yourself.
+- **Example**: `/userinfo target:@User`
+
+### `/avatar`
+- **Description**: Shows the avatar of a user.
+- **Inputs**:
+  - `target` (User, Optional): The user to check. Defaults to yourself.
+- **Example**: `/avatar target:@User`
+
+### `/ping`
+- **Description**: Checks the bot's latency and heartbeat.
+- **Example**: `/ping`
+
+### `/uptime`
+- **Description**: Shows how long the bot has been online.
+- **Example**: `/uptime`
+
+### `/botstats`
+- **Description**: Displays technical statistics about the bot's performance.
+- **Example**: `/botstats`
+
 ---
 
 ## 🤖 Bot Management
