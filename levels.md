@@ -1,31 +1,33 @@
 # 📈 Levels & Economy Documentation
 
-Comprehensive guide to the ranking, currency, and business systems.
+Comprehensive guide to the ranking, currency, and business systems. 
+
+> **Note**: These commands are currently **Prefix-Only** (`.command`) to reduce slash command clutter.
 
 ## 💎 Leveling System
 
-### `/rank`
+### `.rank`
 - **Description**: Displays your current level, total XP, and rank within the server.
 - **Permission**: `none`
 - **Inputs**:
   - `user` (User, Optional): View the rank of another user.
-- **Example**: `/rank user:@Friend`
+- **Example**: `.rank user:@Friend`
 
-### `/leaderboard`
+### `.leaderboard`
 - **Description**: Shows the top 10 users in the server by XP.
 - **Permission**: `none`
 - **Inputs**: None.
-- **Example**: `/leaderboard`
+- **Example**: `.leaderboard`
 
-### `/daily`
+### `.daily`
 - **Description**: Claim your daily XP reward.
 - **Permission**: `none`
 - **Inputs**: None.
 - **Cooldown**: 24 Hours.
 - **Bonus**: Reward increases based on your roles' "Role Income" settings.
-- **Example**: `/daily`
+- **Example**: `.daily`
 
-### `/xp` (Staff Only)
+### `.xp` (Staff Only)
 - **Description**: Manage user XP.
 - **Permission**: `Administrator`
 - **Subcommands**:
@@ -38,61 +40,61 @@ Comprehensive guide to the ranking, currency, and business systems.
   - `set`:
     - `target` (User, Required): User to set XP for.
     - `amount` (Integer, Required): Exact XP value.
-- **Example**: `/xp add target:@User amount:1000`
+- **Example**: `.xp add target:@User amount:1000`
 
 ---
 
 ## 🎲 Gambling & Games
 
-### `/blackjack`
+### `.blackjack`
 - **Description**: Play a game of Blackjack against the bot.
 - **Permission**: `none`
 - **Inputs**:
   - `bet` (Integer, Required): Amount of XP to wager.
-- **Example**: `/blackjack bet:500`
+- **Example**: `.blackjack bet:500`
 
-### `/horserace`
+### `.horserace`
 - **Description**: Bet on a virtual horse race.
 - **Permission**: `none`
 - **Inputs**:
   - `bet` (Integer, Required): Amount of XP to wager.
-- **Example**: `/horserace bet:200`
+- **Example**: `.horserace bet:200`
 
-### `/coinflipduel`
+### `.coinflipduel`
 - **Description**: Challenge another user to a coin flip.
 - **Permission**: `none`
 - **Inputs**:
   - `target` (User, Required): The opponent.
   - `bet` (Integer, Required): The amount both users will wager.
-- **Example**: `/coinflipduel target:@User bet:1000`
+- **Example**: `.coinflipduel target:@User bet:1000`
 
-### `/gamble`
+### `.gamble`
 - **Description**: Roll a 100-sided die. Roll > 50 to win.
 - **Permission**: `none`
 - **Inputs**:
   - `bet` (Integer, Required): Amount of XP to wager.
-- **Example**: `/gamble bet:100`
+- **Example**: `.gamble bet:100`
 
-### `/slots`
+### `.slots`
 - **Description**: Spin the slot machine.
 - **Permission**: `none`
 - **Inputs**:
   - `bet` (Integer, Required): Amount of XP to wager.
-- **Example**: `/slots bet:300`
+- **Example**: `.slots bet:300`
 
-### `/roulette`
+### `.roulette`
 - **Description**: Classic roulette gambling.
 - **Permission**: `none`
 - **Inputs**:
   - `bet` (Integer, Required): Amount of XP to wager.
   - `space` (String, Required): Where to bet (e.g., "Red", "Black", "1-18", "19-36").
-- **Example**: `/roulette bet:500 space:Red`
+- **Example**: `.roulette bet:500 space:Red`
 
 ---
 
 ## 📈 Advanced Economy
 
-### `/stocks`
+### `.stocks`
 - **Description**: Interact with the simulated stock market.
 - **Permission**: `none`
 - **Subcommands**:
@@ -105,9 +107,9 @@ Comprehensive guide to the ranking, currency, and business systems.
   - `portfolio`: View your current holdings and profit/loss.
   - `view`:
     - `symbol` (String, Required): Check the current price of a stock.
-- **Example**: `/stocks buy symbol:BTC amount:1`
+- **Example**: `.stocks buy symbol:BTC amount:1`
 
-### `/business`
+### `.business`
 - **Description**: Manage your virtual business for passive income.
 - **Permission**: `none`
 - **Subcommands**:
@@ -116,4 +118,26 @@ Comprehensive guide to the ranking, currency, and business systems.
   - `stats`: View your business's revenue and level.
   - `upgrade`: Use XP to increase your business's hourly earnings.
   - `collect`: Claim your accumulated business earnings.
-- **Example**: `/business create name:MarceCorp`
+- **Example**: `.business create name:MarceCorp`
+
+### `.jobs`
+- **Description**: View available jobs or apply for a job to earn passive income.
+- **Permission**: `none`
+- **Subcommands**:
+  - `list`: View all available jobs and their requirements.
+  - `apply`: Apply for a specific job.
+  - `resign`: Resign from your current job.
+- **Example**: `.jobs list`
+
+### `.shop`
+- **Description**: Purchase items, badges, or perks using your XP.
+- **Permission**: `none`
+- **Example**: `.shop`
+
+### `.trade`
+- **Description**: Safely trade XP or items with another user.
+- **Permission**: `none`
+- **Inputs**:
+  - `target` (User, Required): The user you want to trade with.
+  - `amount` (Integer, Required): The amount of XP to offer.
+- **Example**: `.trade target:@User amount:5000`
