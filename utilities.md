@@ -80,7 +80,19 @@ Full breakdown of AI, productivity, and information tools.
 
 ---
 
-## 🔍 Search & Web Info
+## 🤖 Bot Management
+
+### `/bot pfp`
+- **Description**: Change the bot's server-specific profile picture (Per-Server Avatar).
+- **Permission**: `Server Owner` or `Bot Owner`
+- **Inputs**:
+  - `image` (Attachment, Optional): The new profile picture.
+  - `reset` (Literal String): Type "reset" as a URL or argument to revert to the global avatar.
+- **Requirements**: Server must be **Boost Level 2**.
+- **Example**: `/bot pfp image:[Upload]` or `.bot pfp reset`
+
+---
+
 
 ### `/google`
 - **Description**: Search Google.
